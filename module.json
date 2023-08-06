@@ -104,22 +104,6 @@
       "type": "JournalEntry",
       "system": "dnd5e",
       "module": "cc5e"
-    },
-    {
-      "name": "lore",
-      "label": "Personal Lore",
-      "path": "packs/lore.db",
-      "type": "JournalEntry",
-      "system": "dnd5e",
-      "module": "cc5e"
-    },
-    {
-      "name": "character-bank",
-      "label": "Character Bank",
-      "path": "packs/character-bank.db",
-      "type": "Actor",
-      "system": "dnd5e",
-      "module": "cc5e"
     }
   ],
   "languages": [
