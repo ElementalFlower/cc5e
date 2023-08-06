@@ -1,0 +1,130 @@
+
+{   
+  "name": "cc5e",   
+  "title": "Custom Compendium 5e",   
+  "description": "Custom Compendium for 5e",   
+  "authors": [
+    {
+      "name": "Lilean",
+      "flags": {}
+    },
+    {
+      "name": "Alec",
+      "flags": {}
+    }
+  ],
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "10.279",
+    "verified": "11.305",
+    "maximum": "11.305"
+  },
+  "esmodules": [
+    "/scripts/module.js"
+  ],  
+  "packs": [
+    {
+      "name": "class-classfeatures",
+      "label": "Class, Race, and Other Features",
+      "path": "packs/class-classfeatures.db",
+      "type": "Item",
+      "system": "dnd5e",
+      "module": "cc5e"
+    },
+    {
+      "name": "equipment",
+      "label": "Equipment",
+      "path": "packs/equipment.db",
+      "type": "Item",
+      "system": "dnd5e",
+      "module": "cc5e"
+    },
+    {
+      "name": "equipment-magic",
+      "label": "Equipment, Magic",
+      "path": "packs/equipment-magic.db",
+      "type": "Item",
+      "system": "dnd5e",
+      "module": "cc5e"
+    },
+    {
+      "name": "equipment-loot",
+      "label": "Equipment, Loot",
+      "path": "packs/equipment-loot.db",
+      "type": "Item",
+      "system": "dnd5e",
+      "module": "cc5e"
+    },
+    {
+      "name": "spells",
+      "label": "Spells",
+      "path": "packs/spells.db",
+      "type": "Item",
+      "system": "dnd5e",
+      "module": "cc5e"
+    },
+    {
+      "name": "statblocks",
+      "label": "Statblocks",
+      "path": "packs/statblocks.db",
+      "type": "Actor",
+      "system": "dnd5e",
+      "module": "cc5e"
+    },
+    {
+      "name": "statblocks-features",
+      "label": "Statblock Features",
+      "path": "packs/statblocks-features.db",
+      "type": "Item",
+      "system": "dnd5e",
+      "module": "cc5e"
+    },
+    {
+      "name": "macros-custom",
+      "label": "Macros, Custom",
+      "path": "packs/macros-custom.db",
+      "type": "Macro",
+      "system": "dnd5e",
+      "module": "cc5e"
+    },
+    {
+      "name": "rolltables-custom",
+      "label": "Rollable Tables, Custom",
+      "path": "packs/rolltables-custom.db",
+      "type": "RollTable",
+      "system": "dnd5e",
+      "module": "cc5e"
+    },
+    {
+      "name": "rules-revised",
+      "label": "Rules, Revised and Reorganized",
+      "path": "packs/rules-revised.db",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "module": "cc5e"
+    },
+    {
+      "name": "lore",
+      "label": "Personal Lore",
+      "path": "packs/lore.db",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "module": "cc5e"
+    },
+    {
+      "name": "character-bank",
+      "label": "Character Bank",
+      "path": "packs/character-bank.db",
+      "type": "Actor",
+      "system": "dnd5e",
+      "module": "cc5e"
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+      }
+  ]
+}
