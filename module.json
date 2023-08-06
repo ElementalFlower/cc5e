@@ -16,9 +16,11 @@
   "version": "1.0.0",
   "compatibility": {
     "minimum": "10.279",
-    "verified": "11.305",
-    "maximum": "11.305"
+    "verified": "11.307",
+    "maximum": "11.307"
   },
+  "manifest": "https://github.com/ElementalFlower/cc5e/releases/download/1.0.0/module.json",
+  "download": "https://github.com/ElementalFlower/cc5e/releases/download/1.0.0/cc5e.zip",
   "esmodules": [
     "/scripts/module.js"
   ],  
