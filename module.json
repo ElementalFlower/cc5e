@@ -13,7 +13,7 @@
       "flags": {}
     }
   ],
-  "version": "1.0.3",
+  "version": "1.0.4",
   "compatibility": {
     "minimum": "10.279",
     "verified": "11.307",
@@ -21,7 +21,7 @@
   },
   "url": "https://github.com/ElementalFlower/cc5e",
   "manifest": "https://github.com/ElementalFlower/cc5e/releases/latest/download/module.json",
-  "download": "https://github.com/ElementalFlower/cc5e/releases/download/1.0.3/cc5e.zip",
+  "download": "https://github.com/ElementalFlower/cc5e/releases/download/1.0.4/cc5e.zip",
   "esmodules": [
     "/scripts/module.js"
   ],  
