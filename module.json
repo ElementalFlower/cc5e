@@ -107,6 +107,25 @@
       "module": "cc5e"
     }
   ],
+  "packFolders": [
+    {
+      "name": "Custom Compendium",
+      "sorting": "a",
+      "color": "#000000",
+      "packs": [
+        "class-classfeatures",
+        "equipment",
+        "equipment-loot",
+        "equipment-magic",
+        "macros-custom",
+        "rolltables-custom",
+        "rules-revised",
+        "spells",
+        "statblocks-features",
+        "statblocks"
+      ]
+    }
+  ],
   "languages": [
     {
       "lang": "en",
