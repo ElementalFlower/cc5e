@@ -105,6 +105,53 @@ Hooks.on("init", () => {
     /* -------------------------------------------- */
 
     /**
+     * The basic tool types in 5e. This enables specific tool proficiencies or
+     * starting equipment provided by classes and backgrounds. Modified to fit modifications made.
+     * @enum {string}
+     */
+    CONFIG.DND5E.toolIds = {
+      alchemist: "SztwZhbhZeCqyAes",
+      bagpipes: "yxHi57T5mmVt0oDr",
+      brewer: "Y9S75go1hLMXUD48",
+      calligrapher: "jhjo20QoiD5exf09",
+      card: "YwlHI3BVJapz4a3E",
+      carpenter: "8NS6MSOdXtUqD7Ib",
+      cartographer: "fC0lFK8P4RuhpfaU",
+      chess: "23y8FvWKf9YLcnBL",
+      cobbler: "hM84pZnpCqKfi8XH",
+      cook: "Gflnp29aEv5Lc1ZM",
+      dice: "iBuTM09KD9IoM5L8",
+      disg: "IBhDAr7WkhWPYLVn",
+      drum: "69Dpr25pf4BjkHKb",
+      dulcimer: "NtdDkjmpdIMiX7I2",
+      engineer: "cc5e.equipment.QDsiVsSqp0eKn80Z",
+      flute: "eJOrPcAz9EcquyRQ",
+      forg: "cG3m4YlHfbQlLEOx",
+      glassblower: "rTbVrNcwApnuTz5E",
+      gunsmith: "cc5e.equipment.IA5ch7Nc60GYFZYP",
+      herb: "i89okN7GFTWHsvPy",
+      horn: "aa9KuBy4dst7WIW9",
+      jeweler: "YfBwELTgPFHmQdHh",
+      leatherworker: "PUMfwyVUbtyxgYbD",
+      lute: "qBydtUUIkv520DT7",
+      lyre: "EwG1EtmbgR3bM68U",
+      mason: "skUih6tBvcBbORzA",
+      navg: "YHCmjsiXxZ9UdUhU",
+      painter: "ccm5xlWhx74d6lsK",
+      panflute: "G5m5gYIx9VAUWC3J",
+      pois: "il2GNi8C0DvGLL9P",
+      potter: "hJS8yEVkqgJjwfWa",
+      shawm: "G3cqbejJpfB91VhP",
+      smith: "KndVe2insuctjIaj",
+      thief: "woWZ1sO5IUVGzo58",
+      tinker: "0d08g1i5WXnNrCNA",
+      viol: "baoe3U5BfMMMxhCU",
+      weaver: "ap9prThUB2y9lDyj",
+      woodcarver: "xKErqkLo4ASYr5EP"
+    };
+
+    /* -------------------------------------------- */
+    /**
      * Specific equipment types that modify base AC.
      * @enum {string}
      */
