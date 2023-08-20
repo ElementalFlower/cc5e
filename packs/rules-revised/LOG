@@ -1,8 +1,15 @@
-2023/08/19-14:58:13.637 42f8 Recovering log #510
-2023/08/19-14:58:13.652 42f8 Delete type=0 #510
-2023/08/19-14:58:13.652 42f8 Delete type=3 #508
-2023/08/19-16:38:01.762 7a3c Level-0 table #515: started
-2023/08/19-16:38:01.762 7a3c Level-0 table #515: 0 bytes OK
-2023/08/19-16:38:01.768 7a3c Delete type=0 #513
-2023/08/19-16:38:01.769 7a3c Manual compaction at level-0 from '!folders!7RiCfmTAmeN7S9PE' @ 72057594037927935 : 1 .. '!journal.pages!zyZCr4oKEiVSTXGL.azfsU40DQ6HVwpSe' @ 0 : 0; will stop at (end)
-2023/08/19-16:38:01.769 7a3c Manual compaction at level-1 from '!folders!7RiCfmTAmeN7S9PE' @ 72057594037927935 : 1 .. '!journal.pages!zyZCr4oKEiVSTXGL.azfsU40DQ6HVwpSe' @ 0 : 0; will stop at (end)
+2023/08/19-16:38:35.636 5c44 Recovering log #514
+2023/08/19-16:38:35.649 5c44 Delete type=0 #514
+2023/08/19-16:38:35.650 5c44 Delete type=3 #512
+2023/08/19-18:23:13.049 7a3c Level-0 table #519: started
+2023/08/19-18:23:13.058 7a3c Level-0 table #519: 33684 bytes OK
+2023/08/19-18:23:13.064 7a3c Delete type=0 #517
+2023/08/19-18:23:13.083 7a3c Manual compaction at level-0 from '!folders!7RiCfmTAmeN7S9PE' @ 72057594037927935 : 1 .. '!journal.pages!zyZCr4oKEiVSTXGL.azfsU40DQ6HVwpSe' @ 0 : 0; will stop at (end)
+2023/08/19-18:23:13.083 7a3c Manual compaction at level-1 from '!folders!7RiCfmTAmeN7S9PE' @ 72057594037927935 : 1 .. '!journal.pages!zyZCr4oKEiVSTXGL.azfsU40DQ6HVwpSe' @ 0 : 0; will stop at '!journal.pages!RCH2SgcKTCHjI38Z.nAEvqIQgKP41XFyX' @ 2932 : 0
+2023/08/19-18:23:13.084 7a3c Compacting 1@1 + 1@2 files
+2023/08/19-18:23:13.121 7a3c Generated table #520@1: 654 keys, 2126776 bytes
+2023/08/19-18:23:13.121 7a3c Compacted 1@1 + 1@2 files => 2126776 bytes
+2023/08/19-18:23:13.124 7a3c compacted to: files[ 0 0 2 0 0 0 0 ]
+2023/08/19-18:23:13.124 7a3c Delete type=2 #493
+2023/08/19-18:23:13.125 7a3c Delete type=2 #519
+2023/08/19-18:23:13.125 7a3c Manual compaction at level-1 from '!journal.pages!RCH2SgcKTCHjI38Z.nAEvqIQgKP41XFyX' @ 2932 : 0 .. '!journal.pages!zyZCr4oKEiVSTXGL.azfsU40DQ6HVwpSe' @ 0 : 0; will stop at (end)
