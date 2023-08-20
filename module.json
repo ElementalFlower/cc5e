@@ -3,6 +3,18 @@
   "name": "cc5e",   
   "title": "Custom Compendium 5e",   
   "description": "Custom Compendium for 5e",   
+  "relationships": {
+    "recommends": [
+      {
+        "id": "dae",
+        "type": "module"
+      },
+      {
+        "id": "plutonium",
+        "type": "module"
+      }
+    ]
+  },
   "authors": [
     {
       "name": "Lilean",
