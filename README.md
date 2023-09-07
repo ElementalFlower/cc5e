@@ -1,5 +1,5 @@
 # Custom Compendium for D&D 5e
-This module is a (mostly) full compendium of _Dungeons and Dragons 5th Edition_ content that has been modified with hombrew rules I use. In it's current state it is complete enough to be usable. **This module does not have the original Fifth Edition rules, only the edited version.**
+This module is a (mostly) full compendium of _Dungeons and Dragons 5th Edition_ content that has been modified with hombrew rules I use. In it's current state it is complete enough to be usable. **The original Fifth Edition rules are not included, only modified rules.**
 ## Module Integrations
 This module makes heavy use of <a href="https://gitlab.com/tposney/dae">Dynamic Active Effects,</a> but is not required.
 
